@@ -1,0 +1,183 @@
+/*
+color 1: #ffab34(green)
+colorl 2: #56aac9(blue)
+color 3: #ac01bd(red)
+*/
+
+/*Global Styles*/
+
+.container{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ffcccc;
+  color: #3385ff;
+}
+body{
+  margin: 0px;
+  font-family: #ff5733, sans-serif;
+}
+
+h1{
+  margin: 0px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+nav li{
+    
+}
+
+.logo{
+  height: 100%;
+  width: 400px;
+  float: left;
+}
+
+.logo h1{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Parisienne', cursive;
+}
+
+.menu{
+  height: 100%;
+  width: 400px;
+  float: right;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 20px 10px 0px 0px;
+}
+
+/*Banner Styles*/
+#banner{
+  width: 100%;
+  height: 100vh;
+  background-image : url("family.JPG");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; 
+}
+
+#banner h1{
+  text-align: center;
+  font-size: 3em;
+  padding-top: 250px;
+  color:  aliceblue;
+}
+
+/*About Styles*/
+
+#about{
+  width: 100%;
+  height: 600px;
+  background-color: lightcoral;
+}
+
+#about article{
+  height: 350px;
+  width: 24%;
+  background-color: #ffcccc;
+  float: left;
+  padding: 20px;
+  margin-right: 45px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 4px solid #333;
+}
+.bio-info{
+  width: 75%;
+  height: auto;
+  background-color: #ffcccc;
+  display: inline-block;
+  padding: 25px 0px;
+  border: 2px dashed #333;
+  border-radius: 10px;
+}
+
+.bio-info h1{
+  text-align: center;
+}
+
+.bio-info p{
+  text-align: justify;
+  padding: 0px 20px;
+}
+
+/*Contact Styles*/
+
+#contact{
+  width: 100%;
+  padding: 45px 0;
+  display: inline-block;
+  background-image: url("family.JPG");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#contact h1{
+  text-align: center;
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+.form-box{
+  height: 375px;
+  width: 500px;
+  padding: 30px;
+  background-color: #F1948A;
+  margin: 0 auto;
+}
+
+#contact input{
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+}
+
+#contact textarea{
+  display: block;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+#contact button{
+  height: 50px;
+  width: 150px;
+  background-color: rgb(50, 50, 225);
+  border: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#about h1{
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#about p{
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
